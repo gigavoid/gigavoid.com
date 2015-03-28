@@ -1,0 +1,10 @@
+extends layout
+block content
+    each post in posts
+        .post
+            h1= post.header
+            if post.size === 'small'
+                img.smallmedia(src=post.image)
+            else if post.size === 'big'
+                img.bigmedia(src=post.image)
+            p= post.content

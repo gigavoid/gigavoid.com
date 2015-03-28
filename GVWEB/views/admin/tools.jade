@@ -1,0 +1,28 @@
+form(method='post', enctype='multipart/form-data', action='')
+    label(for='page') To be seen on:
+    select(id='page' name='page')
+        option(value='index') Index
+        option(value='games') Games
+        option(value='company') Company
+    br
+    br
+    label(for='header') Header:
+    input(type='text', id='header' name='header', placeholder='Header', autofocus)
+    br
+    br
+    input(type='file', name='image')
+    br
+    br
+    label(for='sizesmall') Size: Small
+    input(type='radio', id='sizesmall', name='size' value='small')
+    label(for='sizebig') Big
+    input(type='radio', id='sizebig', name='size' value='big')
+    br
+    br
+    label(for='content') Text:
+    br
+    textarea(style='width: 500px; height: 200px;', id='content', name='content', placeholder='Content here...')
+    br
+    br
+    input(type='submit', value='Subit')
+    p= error

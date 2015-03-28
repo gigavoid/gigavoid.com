@@ -1,0 +1,84 @@
+.bigmedia {
+  width: 786px;
+  height: 442px;
+  border: 2px solid #186518;
+}
+.smallmedia {
+  width: 386px;
+  height: 217px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: 2px solid #186518;
+}
+.post {
+  padding: 5px;
+  border-bottom: 1px solid #186518;
+}
+.post:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: 16px "Lucida Grande", Verdana, sans-serif;
+  color: #186518;
+  background-color: #000;
+}
+a {
+  color: #186518;
+}
+a:hover {
+  color: #1ccd21;
+}
+p {
+  margin-bottom: 0;
+}
+.background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  padding-top: 41%;
+}
+.background img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+.menu {
+  background-color: rgba(0,0,0,0.8);
+  border-bottom: 2px solid #186518;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  font-size: 28px;
+}
+.menu a {
+  text-decoration: none;
+  margin: 0 8px;
+}
+.hero {
+  width: 100%;
+  padding-top: 24%;
+}
+.container {
+  text-align: center;
+  background-color: #000;
+  background: linear-gradient(rgba(0,0,0,0.8), #000 200px);
+  border-top: 2px solid #186518;
+  min-height: 55vh;
+  width: 100%;
+}
+.content {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+  overflow: auto;
+}
+.end {
+  margin: 0 auto;
+  width: 800px;
+  padding-bottom: 30px;
+}

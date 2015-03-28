@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    .background
+      img(src='/images/GVBG.png')
+    .menu
+      a(href= "/") HOME
+      a(href= "/games") GAMES
+      a(href= "/company") COMPANY
+      a(href= "/support") SUPPORT
+    .hero
+    .container
+      .content
+        block content
+      .end
+        p &copy; Gigavoid 2013 - #{year()}
