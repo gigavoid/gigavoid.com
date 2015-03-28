@@ -10,7 +10,7 @@ var multer = require('multer');
 var routes = require('./routes/index');
 var admin = require('./routes/admin');
 
-var db = require('monk')('localhost/gigavoid'); //pw in future
+var db = require('monk')('localhost/gigavoid'); // pw in future
 
 var app = express();
 
